@@ -1,0 +1,85 @@
+@media (max-width:800px) {
+
+    /* .container,
+    header,
+    section {
+        width: 100%;
+    } */
+
+    header {
+        .frontAduda{
+            height: 50px;
+        }
+    }
+
+    
+}
+
+@media(max-width:550px) {
+    body{
+    width: 100vw;
+}
+    .container,
+    header {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    header img {
+
+        width: 100vw;
+    }
+
+.about{
+    width: 100%;
+    height: 60vh;
+    padding: 14px 16px;
+    text-align: center;
+}
+.aboutMe h1 {
+    text-align: center;
+}
+.sectionProjects{
+    margin-top: 10rem;
+    text-align: center;
+
+}
+.cardGrid{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important ;
+    grid-template-rows: repeat(6) !important;
+    gap: 2.5rem !important;
+    margin-left: 16vw;
+}
+.frontAduda {
+display: none;
+}
+.cover{
+    display: none;
+}
+.coverSmall{
+    display: block;
+    
+}
+.responsivAduda{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 145px;
+    margin-top: -2rem;
+}
+.Email_img {
+    display: none;
+}
+.f-title{
+    text-align:center;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+
+
+}
