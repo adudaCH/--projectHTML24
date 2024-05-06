@@ -40,7 +40,7 @@
     text-align: center;
 }
 .sectionProjects{
-    margin-top: 10rem;
+    margin-top: 16rem;
     text-align: center;
 
 }
@@ -79,7 +79,8 @@ display: none;
 .btn{
     margin-left: 10px;
 }
-
-
+.name, .email, .messege1{
+    margin-left: 0.5rem;
+}
 
 }

@@ -80,7 +80,9 @@ header {
         color: black;
     }
 }
-
+.card{
+    gap: 0.5rem;
+}
 /* contact section */
 
 body {
@@ -265,8 +267,8 @@ h6 {
 
 
 .Email_img {
-    height: 250px;
-    width: 800px;
+    height: 350px;
+    width: 850px;
     display: flex;
     left: 800px;
     margin-left: 200px;
