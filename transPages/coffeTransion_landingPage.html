@@ -46,11 +46,29 @@
 
         <header>
 
-            <img src="../gallary/transcoffeelandpage.png" alt="cover image protfolio" class="cover">
+            <img src="../gallary/transcoffeelandpage.png" alt="cover image cafe_landigPage" class="cover">
             <div class="hederDiv">
-                <button class="download-btn" onclick="downloadFile('path_to_your_file')>להורדה</button>
-            
+                <button id="download-btn" onclick="downloadFile('../projectcoffee.rar')">להורדה</button>
             </div>
+<script>
+    function downloadFile(url) {
+        var anchor = document.createElement('a');
+        anchor.style.display = 'none';
+        document.body.appendChild(anchor);
+
+        anchor.href = url;
+
+
+        anchor.download = '../projectcoffee.rar';
+
+
+        anchor.click();
+
+
+        document.body.removeChild(anchor);
+    }
+</script>
+
         </header>
 
         <div class="techNav">
