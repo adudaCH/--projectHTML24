@@ -47,8 +47,13 @@
   width: 100%;
   margin-top: 20px;
 }
-.formBox form .israBlof {
-  width: 40%;
+.formBox form .formInput {
+  width: 35%;
+  flex-direction: row;
+}
+.formBox form .fullname {
+  margin-top: 20px;
+  margin-right: 100px;
 }
 .formBox form label {
   display: block;
@@ -65,13 +70,17 @@
 }
 .formBox form button {
   background: #FFFFFF 0% 0% no-repeat padding-box;
-  width: 10%;
+  width: 20%;
   height: 30px;
   margin-top: 20px;
   border: none;
+  margin-right: 10px;
+}
+.formBox form button:hover {
+  background: #dbe3f6 0% 0% no-repeat padding-box;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .innerContainer {
     width: 100%;
   }
@@ -90,11 +99,11 @@
     flex-direction: column;
     width: 100%;
   }
-  .formBox form .israBlof {
+  .formBox form .formInput {
     width: 80%;
     margin: 0 auto;
   }
-  .formBox form .israBlof input {
+  .formBox form .formInput input {
     width: 100%;
   }
   .formBox form .sendbtn {

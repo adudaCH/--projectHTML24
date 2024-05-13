@@ -1,0 +1,72 @@
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .cover {
+    width: 100%;
+    height: 45vh;
+    align-items: center;
+    }
+
+.smallAduda {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    }
+
+    header {
+    position: relative;
+
+    }
+
+#skills {
+    position: relative;
+    background: #f3f3f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.7s ease-in-out;
+    }
+
+    #skills img {
+    height: 6vh;
+    border-radius: 30px;
+
+    }
+
+    .imgBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 100px 0;
+    margin: 0 auto;
+    }
+
+.imgBox img {
+    width: 100%;
+    }
+
+.bgcBox {
+        background-color: lightblue;
+    }
+
+    #download-btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #98c9fe;
+    color: navy;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    #download-btn:hover {
+    background-color: #0056b3;
+    }

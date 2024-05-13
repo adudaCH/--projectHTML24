@@ -45,8 +45,14 @@ font: normal normal normal 32px/38px Varela Round;
         justify-content: space-evenly;
         width: 100%;
         margin-top: 20px;
-        & .israBlof{
-            width: 40%;
+        & .formInput{
+            width: 35%;
+            flex-direction: row;
+            // border: wheat solid 2pt;
+        }
+        .fullname{
+            margin-top: 20px;
+            margin-right: 100px;
         }
         label{
             display: block;
@@ -64,16 +70,20 @@ font: normal normal normal 32px/38px Varela Round;
         }
         & button{
             background: #FFFFFF 0% 0% no-repeat padding-box;
-            width: 10%;
+            width: 20%;
             height: 30px;
             margin-top: 20px;
             border: none;
+            margin-right: 10px;
+        }
+        & button:hover{
+            background: #dbe3f6 0% 0% no-repeat padding-box;
         }
     }
 }
 
 
-@media (max-width 400px){
+@media (max-width: 400px){
     .innerContainer {
         width: 100%;
         & h1{
@@ -88,7 +98,7 @@ font: normal normal normal 32px/38px Varela Round;
         width: 100%;
         padding-bottom: 10px;
         & form{
-            .israBlof {
+            .formInput {
                     width: 80%;
                     margin: 0 auto;
 
