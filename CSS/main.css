@@ -84,7 +84,9 @@ header {
     gap: 0.5rem;
 }
 /* contact section */
-
+.card-text{
+    margin-bottom: 7px;
+}
 body {
     background: #fbfbfd;
 }
