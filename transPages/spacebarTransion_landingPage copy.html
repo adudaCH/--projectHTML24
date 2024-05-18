@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space bar </title>
+    <link rel="stylesheet" href="../bootstrapProject/bootstrap.min.css">
+    <link rel="stylesheet" href="./transPages_css/trans.css">
+
+</head>
+<body>
+<header>
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg bg-silver">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Adi Saadya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectSection">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactMe" class="nav-link" aria-disabled="true">Get in Touch</a>
+                        </li>
+                    </ul>
+                    <a href="#main"><img class="smallAduda" src="../gallary/ADUDA.jpg" alt="adi saadya"></a>
+
+                </div>
+            </div>
+        </nav>
+
+        <header>
+
+            <img src="../gallary/transspcebarlandpage.png" alt="cover image cafe_landigPage" class="cover">
+            <div class="hederDiv">
+                <button id="download-btn" onclick="downloadFile('../projetspacebar.rar')">להורדה</button>
+            </div>
+<script>
+    function downloadFile(url) {
+        var anchor = document.createElement('a');
+        anchor.style.display = 'none';
+        document.body.appendChild(anchor);
+
+        anchor.href = url;
+
+
+        anchor.download = '../projetspacebar.rar';
+
+
+        anchor.click();
+
+
+        document.body.removeChild(anchor);
+    }
+</script>
+
+        </header>
+
+        <div class="techNav">
+        
+            <aside id="skills">
+                <img src="../gallary/html.jpg" alt="html picture" class="icon">
+                <img src="../gallary/css.jpg" alt="CSS picture" class="icon">
+                <img src="../gallary/bootStrap.jpg" alt="CSS picture" class="icon">
+                <img src="../gallary/javaScript.jpg" alt="CSS picture" class="icon">
+
+            </aside>
+        
+        </div>
+        <div class="bgcBox">
+<div class="imgBox">
+
+    <img src="../gallary/spacebar_screenshot.png" alt="spacebar_landigPage">
+        </div>
+</div>
+
+
+
+
+
+
+
+<script src="./JS_project/bootstrap.bundle.js"></script>
+</body>
+</html>
